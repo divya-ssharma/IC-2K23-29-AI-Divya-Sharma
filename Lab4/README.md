@@ -3,8 +3,8 @@
 Name: Divya Sharma  
 Roll No: IC-2K23-29
 
-Rule based system and semantic network.
+This lab implements two forms of knowledge representation: a rule based system and a semantic network.
 
-rule_based.py takes symptoms one by one from input and then does forward chaining on a small set of rules. If you give it fever and cough, it infers flu from that, then infers rest from flu. The while loop runs until no new fact is added.
+The rule based program accepts symptoms one at a time and then performs forward chaining over a small set of rules. Starting from the given facts, it checks every rule, adds any new conclusion that follows, and repeats until no further facts can be inferred. For example, fever and cough together infer flu, which in turn infers rest.
 
-semantic_net.py is a nested dictionary with Student, Course and Faculty. Each one has a few relations stored and the script prints them out.
+The semantic network is stored as a nested dictionary with Student, Course and Faculty as nodes. Each node lists its relations to the others, and the program prints them out one by one. An additional Institute node was planned but not completed in this submission.

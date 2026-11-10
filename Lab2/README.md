@@ -3,8 +3,8 @@
 Name: Divya Sharma  
 Roll No: IC-2K23-29
 
-Search algorithms.
+This lab implements BFS, DFS, hill climbing and A* search. The same graph is used across all three files so that the outputs can be compared directly.
 
-Same graph used across all three files. bfs_dfs.py has both BFS and DFS, BFS returns the shortest path and DFS returns whatever path it finds first. hill_climbing.py is on a number line, the goal is 10 and each step moves the value up or down by 1 towards it. astar.py is on the graph again but with heuristic values on each node.
+BFS and DFS are implemented together in bfs_dfs.py. BFS returns the shortest path, while DFS returns the first path it reaches. Hill climbing works on a numeric state where the goal is 10, moving one step at a time towards it. A* uses the graph again with heuristic values on each node and expands the node with the lowest f = g + h.
 
-Hill climbing can get stuck if it starts at a number where both neighbours are worse, but for this simple case it usually reaches 10.
+For this graph hill climbing reaches the goal without getting stuck, although on a larger state space it can fail when both neighbours are worse than the current state.

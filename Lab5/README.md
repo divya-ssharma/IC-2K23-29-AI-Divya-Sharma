@@ -3,8 +3,8 @@
 Name: Divya Sharma  
 Roll No: IC-2K23-29
 
-Decision tree on placement data.
+This lab trains a decision tree classifier on a small placement dataset of ten records. The features are the ssc, hsc and degree percentages, and the target is whether the student was placed.
 
-Ten rows, three features (ssc, hsc, degree) and the placed column as target. The first tree I ran had no depth limit and fit the training data perfectly, so I set max_depth to 3. Accuracy on the test split is not great but the dataset is too small for it to mean much.
+The first model was built with the default settings and fit the training data perfectly, which indicated overfitting for a dataset of this size. Setting max_depth to 3 produced a more reasonable tree. The test accuracy remains low, but that is a limitation of the dataset rather than the model.
 
-Prints accuracy, confusion matrix and classification report. Tree diagram saved as tree.png.
+The program prints the accuracy, confusion matrix and classification report, and saves the tree diagram as tree.png.
