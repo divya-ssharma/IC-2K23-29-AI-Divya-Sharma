@@ -3,6 +3,4 @@
 Name: Divya Sharma  
 Roll No: IC-2K23-29
 
-BFS DFS  
-Hill Climbing  
-A Star
+BFS and DFS on a small graph. Hill climbing on a simple numeric state. A star on the same graph with heuristic values. All three files run independently.

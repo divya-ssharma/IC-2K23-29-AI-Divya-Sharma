@@ -3,8 +3,4 @@
 Name: Divya Sharma  
 Roll No: IC-2K23-29
 
-Missionaries and Cannibals,
-Vacuum Cleaner and
-Water Jug problem
-
-
+Water jug, vacuum cleaner and missionaries and cannibals. Water jug uses a simple fill pour loop. Vacuum cleaner is a reflex agent with two rooms. Missionaries and cannibals uses BFS.
